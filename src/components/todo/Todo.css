@@ -1,0 +1,17 @@
+
+.todoWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.todoWrapper input {
+    margin-right: 10px;
+}
+.delete {
+    margin-left: 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+}

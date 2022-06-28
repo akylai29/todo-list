@@ -1,0 +1,23 @@
+.formWrapper {
+    display: flex;
+}
+.formWrapper input {
+    padding: 6px 12px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 0.25rem 0 0 0.25rem;
+    width: 80%;
+}
+
+.formWrapper button {
+    border: none;
+    background: rgb(0, 157, 255);
+    border-radius: 0 0.25rem  0.25rem 0;
+    width: 20%;
+    color: white;
+}
+
+.formWrapper input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
