@@ -1,17 +1,18 @@
 .formWrapper {
     display: flex;
 }
-.formWrapper input {
+
+#first {
     padding: 6px 12px;
     border: 1px solid rgb(187, 187, 187);
     border-radius: 0.25rem 0 0 0.25rem;
     width: 80%;
 }
 
-.formWrapper button {
+#second {
     border: none;
     background: rgb(0, 157, 255);
-    border-radius: 0 0.25rem  0.25rem 0;
+    border-radius: 0 0.25rem 0.25rem 0;
     width: 20%;
     color: white;
 }
